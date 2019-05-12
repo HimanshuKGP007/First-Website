@@ -1,0 +1,207 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+body{
+   padding: 0;
+   margin: 0;
+   background-color: #bbe238;
+   align-items: center;
+}
+
+ .Background{
+  height: 200px;
+  width: 200px;
+  
+  top: 20%;
+  border-color: #000000;
+  
+  border: 2px;
+  border-radius: 25%;
+  border-style: solid;
+  
+  margin-left: 100px;
+  position: absolute;
+  
+  left: 37%;
+  transition: 0.4s;
+
+}
+.c{
+  font-family: 'Cairo', sans-serif;
+  font-size: 50px;
+  text-align: center;
+  position: fixed;
+  left: 37%;
+}
+
+.f{
+  font-family: 'Cairo', sans-serif;
+  font-size: 50px;
+  text-align: center;
+  position: fixed;
+  left: 43%;
+}
+
+.c:hover {
+    text-decoration: underline;
+}
+
+
+.nav{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  position: fixed;
+}
+.nav li {
+  float: right;
+}
+.nav li a {
+  font-family: 'Raleway', sans-serif;
+  display: block;
+  font-size: 20px;
+  padding: 18px 20px;
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  transition: 0.3s;
+ }
+.nav li a:hover {
+  background-color: #5b5454;
+  animation-name: transition;
+  animation-duration: 2s;
+  color: #ffffff;
+  }
+
+@keyframes transition {
+  from {background-color: #5b5454;}
+  to {background-color: #b5c6e0;}
+
+  from {color: #ffffff;}
+  to {color: #000000;}
+}
+
+ .text {
+  align-items: center;
+  float: right; 
+  color:#2e2e2e;
+  position: fixed;
+  top: 52%;
+  left: auto; 
+  margin: 10px;
+  font-size:200%;
+  font-family: 'Nunito', sans-serif;
+  transition: 0.1s;
+  text-align: center;
+}
+
+img:hover{
+ transition: scale(1.5);
+}
+
+.telephone{
+  height: 50px;
+  width: 50px;
+  top: 30%;
+  margin-left: 100px;
+  position: fixed;
+  
+  left: 40%;
+  
+}
+.b{
+  font-family: 'Playfair Display', serif;
+  align-items: center;
+  text-align: center;
+  font-size: 22px;
+  position: fixed;
+  left: 11%;
+}
+
+.e{
+  font-family: 'Playfair Display', serif;
+  align-items: center;
+  text-align: left;
+  font-size: 32px;
+  position: fixed;
+  left: 11%;
+}
+
+.box{
+  
+  position: fixed;
+  left:30%;
+}
+
+.contact a {
+  
+  padding: 20px;
+  transition: all 0.3s ease;
+  
+  font-size: 50px;
+  border-radius: 15px;
+  margin-right: 110px;
+  position: relative;
+  transition: transform .2s;
+  
+ }
+ .cris{
+  top: 28%;
+   margin-left: 100px;
+  position: absolute;
+  border-radius: 25px;
+  left: 50%;
+
+ }
+
+ .d{
+  font-size: 22px;
+  font-family: 'Gothic A1', sans-serif;
+ }
+
+
+.contact a:hover {
+  animation-name: tran;
+  animation-duration: 2s;  
+  }
+  @keyframes tran {
+  from {font-size: 50px;}
+  to {font-size: 100px}
+}
+
+
+.facebook {
+  background: ;
+  color: #3B5998;
+}
+
+.google {
+  background: ;
+  color: #dd4b39;
+}
+
+.linkedin {
+  background:  ;
+  color: #007bb5;
+}
+
+.instagram {
+  background: #bb0000;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
